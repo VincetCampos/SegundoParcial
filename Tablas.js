@@ -24,6 +24,8 @@ document.getElementById('tablas').addEventListener('click', function(event){
 
     let botonEnviar = document.createElement('input');
     botonEnviar.type = "button";
+    botonEnviar.name = "Enviar";
+    botonEnviar.innerText = "Enviar"
     botonEnviar.id = "boton";
     formulario.appendChild(botonEnviar)
 })
