@@ -1,0 +1,33 @@
+.layout{
+    display: flex;
+
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    margin-right: 50px;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.contenido{
+    margin: 10px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    height: 250px;
+    width: 500px;
+    background-color: darkcyan;
+    justify-content: center;
+}
+
+.pie{
+    margin: 10px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    width: 500px;
+    background-color: aquamarine;
+    justify-content: center;
+}
